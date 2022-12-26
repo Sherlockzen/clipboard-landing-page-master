@@ -3,23 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Clipboard landing page</title>
-
+  <link rel="stylesheet" href="./output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
+<body class="bg-white">
 
-  A history of everything you copy
+  <header>
+    <div>
+      <div class="w-[375px] h-[363px] flex items-center justify-center" style="background-image: url('./images/bg-header-mobile.png')">
+        <img class="w-[156px] h-[156px]" src="images/logo.svg" alt="logo">
+      </div>
+      <div class="text-center p-7">
+        <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+          A history of everything you copy
+        </p>
+        <p class="font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+          Clipboard allows you to track and organize everything you
+          copy. Instantly access your clipboard on all your devices.
+        </p>
+      </div>
+    </div>
+  </header>
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+
 
   Download for iOS
   Download for Mac
