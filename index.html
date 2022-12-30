@@ -14,8 +14,9 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-white">
+<body class="bg-white flex flex-col gap-44">
 
+  <!-- HEADER + HERO? -->
   <header>
     <div>
       <div class="w-[375px] h-[363px] flex items-center justify-center" style="background-image: url('./images/bg-header-mobile.png')">
@@ -30,71 +31,148 @@
           copy. Instantly access your clipboard on all your devices.
         </p>
       </div>
+      <div class="flex flex-col p-7 gap-[1.875rem]">
+        <button class="shadow-sm shadow-black rounded-full bg-[#38A897] h-14 text-white">
+          Download for iOS        
+        </button>
+        <button class="shadow-sm shadow-black rounded-full bg-[#6173FF] h-14 text-white">
+          Download for Mac        
+        </button>
+      </div>
     </div>
   </header>
 
+  <!-- TRACK YOUR SNIPPETS -->
+  <div class="text-center p-7">
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Keep track of your snippets      
+    </p>
+    <p class="font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Clipboard instantly stores any item you copy in the cloud, 
+      meaning you can access your snippets immediately on all your 
+      devices. Our Mac and iOS apps will help you organize everything.
+    </p>
+    <img class=" my-16" src="images/image-computer.png">
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">     
+      Quick Search
+    </p>
+    <p class="mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Easily search your snippets by content, category, web address,
+      application, and more.
+    </p>
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">     
+      iCloud Sync
+    </p>
+    <p class="mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Instantly saves and syncs snippets across all your devices.
+    </p>
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Complete History
+    </p>
+    <p class="mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Retrieve any snippets from the first moment you started using the app.
+    </p>
+  </div>
 
+  <!-- DEVICES -->
+  <div class="text-center p-7">
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Access Clipboard anywhere
+    </p>
+    <p class="mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Whether you’re on the go, or at your computer, you can access all 
+      your Clipboard snippets in a few simple clicks.
+    </p>
+    <img src="images/image-devices.png">
+  </div>
 
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+  <!-- TOOLS -->
+  <div class="text-center p-7 flex flex-col items-center">
+    <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Supercharge your workflow
+    </p>
+    <p class="mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      We’ve got the tools to boost your productivity.
+    </p>
+    <img class="w-12 mt-10" src="images/icon-blacklist.svg">
+    <p class="mt-6 font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Create blacklists
+    </p>
+    <p class="mt-4 mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Ensure sensitive information never makes its way to your clipboard by 
+      excluding certain sources.
+    </p>
+    <img class="w-12 mt-10" src="images/icon-text.svg">
+    <p class="mt-6 font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Plain text snippets
+    </p>
+    <p class="mt-4 mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Remove unwanted formatting from copied text for a consistent look.
+    </p>
+    
+    <img class="w-12 mt-10" src="images/icon-preview.svg">
+    <p class="mt-6 font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Sneak preview
+    </p>
+    <p class="mt-4 mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Quick preview of all snippets on your Clipboard for easy access.
+    </p>    
+  </div>
   
-  <footer>
+  <!-- LOGOS -->
+  <div class="flex flex-col items-center gap-[6rem]">
+    <img src="images/logo-google.png">
+    <img src="images/logo-ibm.png">
+    <img src="images/logo-microsoft.png">
+    <img src="images/logo-hp.png">
+    <img src="images/logo-vector-graphics.png">
+  </div>
+  
+  <div class="flex flex-col items-center text-center p-7">
+    <p class="mt-6 font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      Clipboard for iOS and <br>Mac OS
+    </p>
+    <p class="mt-4 mb-10 font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+      Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+      and you’re ready to start adding to your clipboard.
+    </p>
+    <div class="flex flex-col p-7 gap-[1.875rem] w-[100%]">
+      <button class="shadow-sm shadow-black rounded-full bg-[#38A897] h-14 text-white">
+        Download for iOS        
+      </button>
+      <button class="shadow-sm shadow-black rounded-full bg-[#6173FF] h-14 text-white">
+        Download for Mac        
+      </button>
+    </div>
+  </div>
+
+  
+  <footer class="flex flex-col items-center gap-10 p-7 bg-[#F5F6F8] text-[#4C545D] font-baiJamjuree font-normal">
+    <img class="w-16" src="images/logo.svg">
+    <a href="" target="_blank">
+      FAQs      
+    </a>
+    <a href="" target="_blank">
+      Contact Us      
+    </a>
+    <a href="" target="_blank">
+      Privacy Policy      
+    </a>
+    <a href="" target="_blank">
+      Press Kit      
+    </a>
+    <a href="" target="_blank">
+      Install Guide
+    </a>
+
+    <div class="flex flex-row gap-10">
+      <img src="images/icon-facebook.svg">
+      <img src="images/icon-twitter.svg">
+      <img src="images/icon-instagram.svg">
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.linkedin.com/in/hewertonsoares/" target="_blank">Hewerton Soares</a>.
     </p>
   </footer>
 </body>
