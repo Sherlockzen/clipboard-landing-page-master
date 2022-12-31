@@ -18,24 +18,24 @@
 
   <!-- HEADER + HERO? -->
   <header>
-    <div>
-      <div class="w-[100%] h-[363px] flex items-center justify-center bg-cover bg-center bg-[url('images/bg-header-mobile.png')]">
-        <img class="w-[156px] h-[156px]" src="images/logo.svg" alt="logo">
+    <div class="lg:flex lg:flex-col lg:items-center">
+      <div class="w-[100%] h-[363px] flex items-center justify-center bg-cover bg-center bg-[url('images/bg-header-mobile.png')] lg:bg-[url('images/bg-header-desktop.png')]">
+        <img class="w-[156px] h-[156px] lg:w-32 lg:h-auto" src="images/logo.svg" alt="logo">
       </div>
-      <div class="text-center p-7">
-        <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455]">
+      <div class="text-center p-7 relative lg:-top-24 lg:w-[43.125rem] lg:flex lg:flex-col">
+        <p class="font-baiJamjuree font-semibold text-[25px] text-[#535455] lg:text-[2.55rem]">
           A history of everything you copy
         </p>
-        <p class="font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg">
+        <p class="font-baiJamjuree font-normal tracking-tight text-[#9FABB2] text-lg lg:mt-4 lg:w-">
           Clipboard allows you to track and organize everything you
           copy. Instantly access your clipboard on all your devices.
         </p>
       </div>
-      <div class="flex flex-col p-7 gap-[1.875rem]">
-        <button class="shadow-sm shadow-black rounded-full bg-[#38A897] h-14 text-white">
+      <div class="flex flex-col p-7 gap-[1.875rem] lg:flex-row">
+        <button class="shadow-sm shadow-black rounded-full bg-[#38A897] h-14 text-white lg:w-[230px] lg:h-[60px]">
           Download for iOS        
         </button>
-        <button class="shadow-sm shadow-black rounded-full bg-[#6173FF] h-14 text-white">
+        <button class="shadow-sm shadow-black rounded-full bg-[#6173FF] h-14 text-white lg:w-[230px] lg:h-[60px]">
           Download for Mac        
         </button>
       </div>
